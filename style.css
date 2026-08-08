@@ -1,14 +1,18 @@
-body {
-    background-color: #111;
+.container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100vh;
-    margin: 0;
 }
 
-.container img {
-    max-width: 90%;
-    max-height: 90vh;
-    border-radius: 10px;
+.tiktok-link {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background: #fe2c55;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
